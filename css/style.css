@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f6f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #174a45 !important;
+}
+
+.navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+    color: white !important;
+}
+
+.nav-link {
+    color: white !important;
+    transition: 0.3s;
+}
+
+.nav-link:hover {
+    color: #d18b45 !important;
+}
+
+.hero {
+    background-color: #28766c;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+h2 {
+    color: #174a45;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.card {
+    border: none;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+.btn-primary {
+    background-color: #d18b45;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #a96b2d;
+}
+
+.btn-success {
+    background-color: #28766c;
+    border: none;
+}
+
+.btn-success:hover {
+    background-color: #174a45;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:focus, button:focus {
+    outline: 2px solid #d18b45;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #174a45 !important;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+}
+
+@media (max-width: 768px) {
+    .hero {
+        padding: 60px 15px;
+    }
+
+    .hero h1 {
+        font-size: 28px;
+    }
+
+    .hero p {
+        font-size: 16px;
+    }
+
+    .card {
+        margin-bottom: 15px;
+    }
+}
